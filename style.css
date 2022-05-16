@@ -1,0 +1,134 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+min-width: 100vh;
+overflow-x:hidden;
+background:linear-gradient(#35799b,#2390c6) ;
+}
+header
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10000;
+}
+header .logo
+{
+    color:#fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header u1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header u1 li
+{
+  list-style: none;  
+  margin-left: 20px;
+}
+header u1 li a
+{
+   text-decoration: none; 
+   padding: 6px 15px;
+   color: #fff;
+   border-radius: 20px;
+}
+header u1 li a:hover,
+header u1 li a.active
+{
+    background: #fff;
+    color:#2b1055;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+section::before
+{
+    /* content: ''; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#1c0522,transparent);
+    z-index: 1000;
+}
+section img
+{
+
+ position: relative;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 150vh;
+ padding: 100px;
+ 
+}
+section img#download
+{
+    mix-blend-mode: screen;
+}
+section img#GreenEarthers_com -Plastic Pollution _ Plastic Pollution Poster Environment _  Plastic Pollution Sea
+{
+    mix-blend-mode: screen;
+}
+
+#text
+{
+   position: absolute;
+   color: rgb(255, 200, 0);
+   white-space: nowrap;
+   font-size: 2.5vw;
+   font-size: 1.5e;
+   z-index: 9;
+}
+#text1
+{
+   position: absolute;
+   color: rgb(255, 200, 0);
+   white-space: nowrap;
+   font-size: 2.5vw;
+   font-size: 1.5e;
+   padding: 30px;
+}
+.sec
+{
+    position:relative;
+    padding: 100px;
+    background: #cc00ff58;
+}
+.sec p
+{
+font-size: 1em;
+color: #fff;
+}
